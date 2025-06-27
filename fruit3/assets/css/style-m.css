@@ -1,13 +1,13 @@
 .site-header {
-  display: flex;
-  align-items: center;
-  min-height: 80px;
-  background: linear-gradient(45deg,
-    #2A3288 0%,
-    #2A3288 35%,
-    #D0DF00 35%,
-    #D0DF00 37%,
-    #ffffff 37%,
+  --fruit-logo-width: var(--site-branding-width, 0px);
+  --fruit-bar-width: max(8px, calc(var(--fruit-logo-width) + 8px));
+  background: linear-gradient(
+    45deg,
+    #2A3288 0,
+    #2A3288 calc(35% - var(--fruit-bar-width)),
+    #D0DF00 calc(35% - var(--fruit-bar-width)),
+    #D0DF00 calc(35% + var(--fruit-bar-width)),
+    #ffffff calc(35% + var(--fruit-bar-width)),
     #ffffff 100%
   );
 }
