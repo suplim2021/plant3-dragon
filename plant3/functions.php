@@ -167,7 +167,7 @@ if (!function_exists('plant_css_js')) :
             wp_enqueue_style('p-spage', $url . 'css/ext-salespage.css', [], $ver);
             wp_enqueue_script('p-spage', $url . 'js/extension/salespage.min.js', [], $ver, true);
         }
-        wp_enqueue_script('main', $url . 'js/main.js', [], $ver, true);
+        wp_enqueue_script('main', $url . 'js/main.min.js', [], $ver, true);
     }
 endif;
 add_action('wp_enqueue_scripts', 'plant_css_js');
