@@ -1,6 +1,7 @@
 // Desktop navigation underline hover effect
 .s-nav > li > a {
   position: relative;
+  height: auto;
   &::after {
     content: '';
     position: absolute;
