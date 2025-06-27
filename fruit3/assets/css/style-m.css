@@ -11,6 +11,7 @@
     #ffffff calc(66% + 8px),
     #ffffff 100%
   );
+  box-shadow: var(--s-shadow-1);
 }
 
 @media (min-width: 720px) {
@@ -28,5 +29,6 @@
       #ffffff calc(35% + 8px),
       #ffffff 100%
     );
+    box-shadow: var(--s-shadow-1);
   }
 }
