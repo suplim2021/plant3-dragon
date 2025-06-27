@@ -13,3 +13,21 @@
     #ffffff 100%
   );
 }
+
+@media (min-width: 720px) {
+  :root {
+    --s-nav-width: 35vw;
+  }
+
+  .site-header {
+    background: linear-gradient(
+      45deg,
+      #2A3288 0,
+      #2A3288 calc(35% - 8px),
+      #D0DF00 calc(35% - 8px),
+      #D0DF00 calc(35% + 8px),
+      #ffffff calc(35% + 8px),
+      #ffffff 100%
+    );
+  }
+}
