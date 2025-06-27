@@ -1,1 +1,13 @@
-/*# sourceMappingURL=style-d.css.map */
+.site-header {
+  display: flex;
+  align-items: center;
+  min-height: 80px;
+  background: linear-gradient(45deg,
+    #2A3288 0%,
+    #2A3288 35%,
+    #D0DF00 35%,
+    #D0DF00 37%,
+    #ffffff 37%,
+    #ffffff 100%
+  );
+}
