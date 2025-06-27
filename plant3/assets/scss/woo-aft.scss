@@ -1,0 +1,78 @@
+// Woo Checkout
+.woocommerce-checkout {
+  .woocommerce-input-wrapper select {
+    width: 100%;
+    background: var(--s-bg-1);
+  }
+  #customer_details .select2 {
+    display: none;
+  }
+
+  .billing-address-filter,
+  .shipping-address-filter {
+    margin-top: 16px;
+    margin-bottom: 0;
+    b {
+      color: var(--s-noti);
+      font-weight: normal;
+    }
+    input {
+      width: 100%;
+      background: var(--s-bg-1);
+    }
+    ul {
+      margin-bottom: 0;
+      padding-left: 0;
+      list-style-type: none;
+    }
+  }
+
+  .custom-address-area,
+  .custom-address-shipping {
+    display: none;
+    margin-top: 10px;
+    li {
+      margin-bottom: 10px;
+      border-radius: 3px;
+      border: 1px solid var(--s-text-1);
+      cursor: pointer;
+      a {
+        color: var(--s-text-1);
+        font-size: 14px;
+        display: block;
+        padding: 5px 16px;
+        &:hover {
+          background: var(--s-text-1);
+          color: var(--s-bg-1);
+        }
+      }
+    }
+    p {
+      color: var(--s-noti);
+    }
+  }
+
+  #billing_country_field,
+  #billing_state_field,
+  #billing_city_field,
+  #billing_address_2_field,
+  #billing_postcode_field,
+  #shipping_country_field,
+  #shipping_address_2_field,
+  #shipping_state_field,
+  #shipping_city_field,
+  #shipping_postcode_field {
+    display: none !important;
+  }
+  .woocommerce-billing-fields__field-wrapper > p {
+    order: 1;
+  }
+  #billing_first_name_field,
+  #billing_last_name_field,
+  #billing_nickname_field,
+  #billing_birth_date_field,
+  #billing_studentlevel_field,
+  #billing_studytype_field {
+    order: 0;
+  }
+}

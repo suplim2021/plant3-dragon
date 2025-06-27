@@ -1,0 +1,1647 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Plant 3 Beta\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-13 03:22+0000\n"
+"PO-Revision-Date: 2023-08-11 10:29+0000\n"
+"Last-Translator: เม่น\n"
+"Language-Team: Thai\n"
+"Language: th\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.2\n"
+"X-Domain: plant"
+
+#: inc/kirki-ini/k-body.php:815 inc/kirki-ini/k-body.php:985
+msgid "1"
+msgstr "1"
+
+#: inc/kirki-ini/k-body.php:858
+msgid "1:1"
+msgstr "1:1"
+
+#: inc/kirki-ini/k-body.php:816 inc/kirki-ini/k-body.php:986
+msgid "2"
+msgstr "2"
+
+#: inc/kirki-ini/k-body.php:817 inc/kirki-ini/k-body.php:987
+msgid "3"
+msgstr "3"
+
+#: inc/kirki-ini/k-brand.php:313 inc/kirki-ini/k-brand.php:361
+#: inc/kirki-ini/k-brand.php:562 inc/kirki-ini/k-brand.php:765
+msgid "300: Light"
+msgstr "300: Light"
+
+#: inc/kirki-ini/k-body.php:857
+msgid "3:2"
+msgstr "3:2"
+
+#: inc/kirki-ini/k-body.php:818 inc/kirki-ini/k-body.php:988
+msgid "4"
+msgstr "4"
+
+#: inc/kirki-ini/k-brand.php:314 inc/kirki-ini/k-brand.php:362
+#: inc/kirki-ini/k-brand.php:563 inc/kirki-ini/k-brand.php:766
+msgid "400: Regular"
+msgstr "400: Regular"
+
+#: inc/kirki-ini/k-body.php:859
+msgid "4:5"
+msgstr "4:5"
+
+#: inc/kirki-ini/k-brand.php:315 inc/kirki-ini/k-brand.php:363
+#: inc/kirki-ini/k-brand.php:564 inc/kirki-ini/k-brand.php:767
+msgid "500: Medium"
+msgstr "500: Medium"
+
+#: inc/kirki-ini/k-brand.php:316 inc/kirki-ini/k-brand.php:364
+#: inc/kirki-ini/k-brand.php:565 inc/kirki-ini/k-brand.php:768
+msgid "600: Semi Bold"
+msgstr "600: Semi Bold"
+
+#: inc/kirki-ini/k-brand.php:317 inc/kirki-ini/k-brand.php:365
+#: inc/kirki-ini/k-brand.php:566 inc/kirki-ini/k-brand.php:769
+msgid "700: Bold"
+msgstr "700: Bold"
+
+#: inc/kirki-ini/k-extensions.php:912
+msgid "Accept Text"
+msgstr ""
+
+#: templates/salespage.php:258
+msgid "Account Name"
+msgstr ""
+
+#: templates/salespage.php:254
+msgid "Account No."
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:639
+msgid "Add space below Header"
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:121
+msgid "Add to Line Button Text"
+msgstr ""
+
+#: inc/shortcode.php:349
+msgid "Admin"
+msgstr "แอดมิน"
+
+#: inc/kirki-ini/k-brand.php:174 inc/kirki-ini/k-brand.php:399
+#: inc/kirki-ini/k-brand.php:602
+msgid "Adobe"
+msgstr ""
+
+#: functions.php:59
+msgid "After Navigation"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:819
+msgid "All"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:1037
+msgid "Author Template"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:1041
+msgid "Avatar"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:1042
+msgid "Avatar with Date"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:113
+msgid "Backend (wp-admin)"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:120
+msgid "Backend CSS"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:130
+msgid "Backend JS"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:584 inc/kirki-ini/k-header.php:484
+#: inc/kirki-ini/k-header.php:527 inc/kirki-ini/k-header.php:593
+#: inc/kirki-ini/k-header.php:690 inc/kirki-ini/k-footer.php:57
+#: inc/kirki-ini/k-footer.php:244
+msgid "Background"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:409
+msgid "Banner"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:445
+msgid "Banner Max Height"
+msgstr ""
+
+#: functions.php:48
+msgid "Before Navigation"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:107
+msgid "BG 1"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:108
+msgid "BG 2"
+msgstr ""
+
+#: functions.php:84 parts/intro-widget.php:18
+msgid "Blog Introduction"
+msgstr "พื้นที่แนะนำตัว กรณีหน้าแรกเป็นบล็อก"
+
+#: inc/kirki-ini/k-body.php:6
+msgid "Body"
+msgstr "ส่วนเนื้อหา"
+
+#: inc/kirki-ini/k-brand.php:160
+msgid "Body Font"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:109
+msgid "Border 1"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:110
+msgid "Border 2"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:128
+msgid "Boxed"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:46
+msgid "Brand Colors"
+msgstr "สีของแบรนด์"
+
+#: inc/kirki-ini/k-brand.php:8
+msgid "Branding"
+msgstr "แบรนด์"
+
+#: inc/template-tags.php:360
+msgid "By"
+msgstr "โดย"
+
+#: inc/kirki-ini/k-body.php:721
+msgid "Caption"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:719
+msgid "Card"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:390 inc/kirki-ini/k-brand.php:824
+msgid "Cart"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:840
+msgid "Cart SVG"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:887
+msgid "Categories"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:900
+msgid "Categories SVG"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:784
+msgid "Category Style?"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:367
+msgid "Center"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:231
+msgid "Channels"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:27
+msgid "Chat Buttons"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:151
+msgid "Chat Icon"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:194
+msgid "Chat Icon Background"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:216
+msgid "Chat Message"
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:152
+msgid "Checkout Page"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:23
+msgid "Classic"
+msgstr ""
+
+#: inc/kirki-ini/k-other.php:91
+msgid "Click if you would like to activate license."
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:237 inc/kirki-ini/k-brand.php:479
+#: inc/kirki-ini/k-brand.php:682
+msgid "Code start with <link ..."
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:49
+msgid "Color 1"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:50
+msgid "Color 2"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:51
+msgid "Color 3"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:52
+msgid "Color 4"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:53
+msgid "Color 5"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:54
+msgid "Color 6"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:581 inc/kirki-ini/k-brand.php:16
+#: inc/kirki-ini/k-footer.php:54
+msgid "Colors"
+msgstr "ชุดสี"
+
+#. Name of the template
+msgid "Coming Soon"
+msgstr ""
+
+#: comments.php:44
+msgid "Comments"
+msgstr ""
+
+#: comments.php:60
+msgid "Comments are closed."
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:129
+msgid "Contained"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:489
+msgid "Content Width"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:34
+msgid "Cookie Consent"
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:244
+msgid "Count in cart will update on reload website only."
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:860 inc/kirki-ini/k-header.php:257
+#: inc/kirki-ini/k-header.php:327 inc/kirki-ini/k-header.php:391
+msgid "Custom"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:246
+msgid "Custom 1"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:598
+msgid "Custom 1 Icon"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:638
+msgid "Custom 1 Tooltip"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:619
+msgid "Custom 1 URL"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:247
+msgid "Custom 2"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:658
+msgid "Custom 2 Icon"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:698
+msgid "Custom 2 Tooltip"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:679
+msgid "Custom 2 URL"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:248
+msgid "Custom 3"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:718
+msgid "Custom 3 Icon"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:758
+msgid "Custom 3 Tooltip"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:739
+msgid "Custom 3 URL"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:249
+msgid "Custom 4"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:778
+msgid "Custom 4 Icon"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:818
+msgid "Custom 4 Tooltip"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:799
+msgid "Custom 4 URL"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:173
+msgid "Custom Icon Image"
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:54
+msgid "Custom Shop Page?"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:276 inc/kirki-ini/k-header.php:346
+#: inc/kirki-ini/k-header.php:405
+msgid "Custom Shortcode"
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:197
+msgid "Dashboard Announcement"
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:185
+msgid "Dashboard Begin"
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:205
+msgid "Dashboard End"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:947
+msgid "Date"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:960
+msgid "Date SVG"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:713
+msgid "Default Content Template"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:1211
+msgid "Default Featured Images"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:405
+msgid "Default Title Template"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:524
+msgid "Desktop Nav Colors"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:124
+msgid "Desktop Width"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:575
+msgid "Different Colors for Home?"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:137
+msgid "Effect"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:245 inc/kirki-ini/k-extensions.php:558
+msgid "Email"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:578
+msgid "Email Tooltip"
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:111
+msgid "Enable Add to Line?"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:142
+msgid "Enable Chat Buttons?"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:857
+msgid "Enable Cookie Consent?"
+msgstr ""
+
+#: inc/kirki-ini/k-footer.php:163
+msgid "Enable Footer Bar?"
+msgstr ""
+
+#: inc/kirki-ini/k-footer.php:14
+msgid "Enable Footer Widget?"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:1020
+msgid "Enable lightGallery.js?"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:1009
+msgid "Enable Rellax.js?"
+msgstr ""
+
+#: inc/template-tags.php:49
+msgid "Enter Search Keyword"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:55
+msgid "Event Banners"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:479
+msgid "Example: 02-123-4567"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:439
+msgid "Example: 081-234-5678"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:978
+msgid "Example: 990123456789012"
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:137
+msgid "Example: @seedwebs"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:963
+msgid "Example: G-AB12CD34EF"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:993
+msgid "Example: G-FH87DE17XF"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:399 inc/kirki-ini/k-brand.php:1058
+msgid "Example: https://fb.com/seedwebs"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:1118
+msgid "Example: https://instagram.com"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:359 inc/kirki-ini/k-brand.php:1073
+msgid "Example: https://line.me/R/ti/p/@seedwebs"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:284 inc/kirki-ini/k-brand.php:1103
+msgid "Example: https://m.me/seedwebs"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:1148
+msgid "Example: https://tiktok.com/"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:519 inc/kirki-ini/k-brand.php:1088
+msgid "Example: https://twitter.com/seedwebs"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:1163
+msgid "Example: https://www.pinterest.com/"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:1133
+msgid "Example: https://youtube.com/"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:559
+msgid "Example: support@seedwebs.com"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:6
+msgid "Extensions"
+msgstr "ส่วนขยาย"
+
+#: inc/kirki-ini/k-brand.php:1015
+msgid "Facebook"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:239
+msgid "Facebook Messenger"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:240
+msgid "Facebook Page"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:398
+msgid "Facebook Page URL"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:977
+msgid "Facebook Pixel ID"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:418
+msgid "Facebook Tooltip"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:1056
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:857
+msgid "Filter"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:870
+msgid "Filter SVG"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:142
+msgid "Fixed on every page"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:182 inc/kirki-ini/k-brand.php:208
+#: inc/kirki-ini/k-brand.php:268 inc/kirki-ini/k-brand.php:414
+#: inc/kirki-ini/k-brand.php:445 inc/kirki-ini/k-brand.php:520
+#: inc/kirki-ini/k-brand.php:617 inc/kirki-ini/k-brand.php:648
+#: inc/kirki-ini/k-brand.php:723
+msgid "Font Family"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:254 inc/kirki-ini/k-brand.php:501
+#: inc/kirki-ini/k-brand.php:704
+msgid "Font Family (Only 1 name)"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:539 inc/kirki-ini/k-brand.php:742
+msgid "Font File (.woff2)"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:558 inc/kirki-ini/k-brand.php:761
+msgid "Font Weight"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:23
+msgid "Fonts"
+msgstr "ฟอนต์"
+
+#: functions.php:119 inc/kirki-ini/k-footer.php:6
+msgid "Footer"
+msgstr "ส่วนท้าย"
+
+#: inc/kirki-ini/k-footer.php:241
+msgid "Footer Bar Colors"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:102
+msgid "Footer Script"
+msgstr ""
+
+#: inc/kirki-ini/k-other.php:79
+msgid ""
+"For lengthy content, will slow down loading. Recommend to enable if using "
+"Adsense."
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:839
+msgid "For Page Template: Landing"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:1010
+msgid "From: dixonandmoe.com/rellax."
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:1021
+msgid "From: ightgalleryjs.com."
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:74
+msgid "Frontend"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:81
+msgid "Frontend CSS"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:130
+msgid "Full"
+msgstr ""
+
+#: inc/kirki-ini/k-footer.php:23
+msgid "Full Width?"
+msgstr ""
+
+#. Description of the theme
+msgid "General Purpose Theme"
+msgstr ""
+
+#: inc/kirki-ini/k-footer.php:15
+msgid "Go to Appearance → Widgets → Footer, and add some widgets."
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:173 inc/kirki-ini/k-brand.php:398
+#: inc/kirki-ini/k-brand.php:601
+msgid "Google"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:962
+msgid "Google Analytics Tracking ID"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:992
+msgid "Google Tag Manager"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:658
+msgid "Grid Display Columns"
+msgstr ""
+
+#: functions.php:37 inc/kirki-ini/k-header.php:8
+msgid "Header"
+msgstr "ส่วนหัว"
+
+#: inc/kirki-ini/k-header.php:481
+msgid "Header Colors"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:590
+msgid "Header Colors for Home"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:91
+msgid "Header Script"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:412
+msgid "Headline"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:898 inc/kirki-ini/k-header.php:31
+#: inc/kirki-ini/k-header.php:65
+msgid "Height"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:411
+msgid "Hero"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:181
+msgid "Hide Brand on Home?"
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:175
+msgid "Hide Downloads Menu"
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:217
+msgid "Hide Recent Order"
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:218
+msgid "Hide recent order on dashboad page."
+msgstr ""
+
+#: inc/kirki-ini/kirki-ini.php:51
+msgid "Hide Site Title?"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:69 inc/kirki-ini/k-body.php:586
+#: inc/kirki-ini/k-header.php:486 inc/kirki-ini/k-header.php:529
+#: inc/kirki-ini/k-header.php:595 inc/kirki-ini/k-header.php:692
+#: inc/kirki-ini/k-footer.php:59 inc/kirki-ini/k-footer.php:246
+msgid "Hover"
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:186 inc/kirki-ini/k-shop.php:206
+msgid "HTML & Shortcode allowed"
+msgstr ""
+
+#: inc/kirki-ini/k-footer.php:174 inc/kirki-ini/k-footer.php:208
+msgid "HTML & Shortcode is allowed"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:1066
+msgid "HTML & SVG is allowed"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:199 inc/kirki-ini/k-header.php:218
+#: inc/kirki-ini/k-header.php:279 inc/kirki-ini/k-header.php:349
+#: inc/kirki-ini/k-header.php:408
+msgid "HTML is allowed"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://seedwebs.com"
+msgstr ""
+
+#. URI of the theme
+msgid "https://seedwebs.com/package/plant/"
+msgstr ""
+
+#: inc/woo/woo.php:237 inc/woo/woo.php:258
+msgid "I'm interested in "
+msgstr "สนใจสินค้านี้ "
+
+#: inc/kirki-ini/k-brand.php:1029
+msgid "Icon Size"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:30
+msgid "Icons"
+msgstr "ไอคอน"
+
+#: inc/kirki-ini/k-brand.php:1019
+msgid "Instagram"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:1116
+msgid "Instagram URL"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:214
+msgid "Intro Background"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:265
+msgid "Intro Padding"
+msgstr ""
+
+#. Name of the template
+msgid "Landing Page"
+msgstr ""
+
+#: inc/kirki-ini/k-other.php:52
+msgid "Large border-radius"
+msgstr ""
+
+#: parts/intro-widget.php:26 parts/intro-text.php:36 parts/intro-photo.php:76
+#: inc/kirki-ini/k-body.php:330
+msgid "Latest"
+msgstr "บล็อกล่าสุด"
+
+#: inc/kirki-ini/k-body.php:328
+msgid "Latest Text"
+msgstr "ข้อความแสดงบล็อกล่าสุด"
+
+#: inc/kirki-ini/k-body.php:106
+msgid "Layout"
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:29 inc/kirki-ini/k-body.php:366
+#: inc/kirki-ini/k-extensions.php:947
+msgid "Left"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:250
+msgid "Left Icons"
+msgstr ""
+
+#. Name of the template
+#: functions.php:107 inc/kirki-ini/k-body.php:635 inc/kirki-ini/k-body.php:688
+msgid "Left Sidebar"
+msgstr "ส่วนด้านซ้ายของหน้า"
+
+#. Name of the template
+msgid "Left Sidebar (Sub Page)"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:48
+msgid "Lightbox Gallery"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:426
+msgid "Limit Banner Height?"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:242 inc/kirki-ini/k-brand.php:1016
+msgid "Line"
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:136
+msgid "Line OA Accont"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:378
+msgid "Line Tooltip"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:358 inc/kirki-ini/k-brand.php:1071
+msgid "Line URL"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:720
+msgid "List"
+msgstr ""
+
+#: inc/kirki-ini/kirki-ini.php:24
+msgid "Logo Height"
+msgstr ""
+
+#: inc/shortcode.php:351
+msgid "Logout"
+msgstr "ออกจากระบบ"
+
+#: inc/kirki-ini/k-body.php:811
+msgid "Max categories to show"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:981
+msgid "Max Lines"
+msgstr ""
+
+#: inc/template-tags.php:77 inc/kirki-ini/k-header.php:256
+#: inc/kirki-ini/k-header.php:326 inc/kirki-ini/k-header.php:389
+msgid "Member"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:254 inc/kirki-ini/k-header.php:324
+msgid "Menu"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:865
+msgid "Message"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:1018
+msgid "Messenger"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:263
+msgid "Messenger - Use Chat Plugin?"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:308
+msgid "Messenger Tooltip"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:283 inc/kirki-ini/k-brand.php:1101
+msgid "Messenger URL"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:333
+msgid "Messenger: Facebook Page ID"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:410 inc/kirki-ini/k-header.php:20
+msgid "Minimal"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:244
+msgid "Mobile"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:438
+msgid "Mobile No."
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:458
+msgid "Mobile Tooltip"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:188 inc/kirki-ini/k-brand.php:420
+#: inc/kirki-ini/k-brand.php:623
+msgid "Monospace: Monaco"
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:8
+msgid "More Shop Settings"
+msgstr "ตั้งค่าร้านค่าเพิ่มเติม"
+
+#: inc/kirki-ini/k-shop.php:168
+msgid "My Account Page"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:99
+msgid "Nav Height on Desktop"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:141
+msgid "No Effect"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:1148
+msgid "No Icon"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:735
+msgid "No Rounded Corners"
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:27 inc/kirki-ini/k-body.php:634
+#: inc/kirki-ini/k-body.php:687
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:295
+msgid "NORMAL: Font File (.woff2)"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:309
+msgid "NORMAL: Font Weight"
+msgstr ""
+
+#: 404.php:21
+msgid "Not Found"
+msgstr ""
+
+#: parts/content-none.php:2
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:856
+msgid "OG"
+msgstr ""
+
+#: inc/template-tags.php:360
+msgid "On"
+msgstr "วันที่"
+
+#: inc/kirki-ini/k-shop.php:37
+msgid "On Desktop, recommended if sidebar is short."
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:82
+msgid "On Product Page"
+msgstr ""
+
+#: woocommerce.php:39
+msgid ""
+"Or disable Sidebar via Appearance → Customize → WooCommerce → More Shop "
+"Settings → Shop Sidebar → Disabled"
+msgstr ""
+
+#: inc/kirki-ini/k-other.php:8
+msgid "Other"
+msgstr "อื่นๆ"
+
+#: inc/kirki-ini/k-shop.php:227
+msgid "Other Settings"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:103
+msgid "Output this HTML code before </body>"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:92
+msgid "Output this HTML code before </head>"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:718
+msgid "Overlap"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:166
+msgid "Overlay on Home? (No Background)"
+msgstr ""
+
+#: inc/kirki-ini/k-other.php:17
+msgid "Override CSS Variables"
+msgstr ""
+
+#: inc/kirki-ini/k-other.php:90
+msgid "Own Smart Slider 3 Pro License?"
+msgstr ""
+
+#: inc/kirki-ini/k-footer.php:117
+msgid "Padding"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:41
+msgid "Parallax Effect"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:243
+msgid "Phone"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:478
+msgid "Phone No."
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:498
+msgid "Phone Tooltip"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:130
+msgid "Photo"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:152
+msgid "Photo Width"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:1022
+msgid "Pinterest"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:1161
+msgid "Pinterest URL"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:1210
+msgid "Placeholder Image"
+msgstr ""
+
+#. Name of the theme
+msgid "Plant 3"
+msgstr ""
+
+#: parts/intro-widget.php:19
+msgid ""
+"Please go to Appearance → Widgets → Blog Introduction, and add some widgets."
+msgstr ""
+"กรุณาเพิ่มวิดเจ็ตที่ รูปลักษณ์ → วิดเจ็ต → พื้นที่แนะนำตัว "
+"กรณีหน้าแรกเป็นบล็อก"
+
+#: woocommerce.php:38
+msgid "Please go to Appearance → Widgets → Shop Sidebar, and add some widgets."
+msgstr "กรุณาเพิ่มวิดเจ็ตที่ รูปลักษณ์ → วิดเจ็ต → ส่วนด้านข้างของร้านค้า"
+
+#: inc/kirki-ini/k-extensions.php:334
+msgid "Please read https://docs.seedwebs.com/article/51-chat-buttons-plant."
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:942
+msgid "Position"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:559
+msgid "Posts to show"
+msgstr ""
+
+#: functions.php:19
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:882
+msgid "Privacy Policy Link"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:897
+msgid "Privacy Policy Link Text"
+msgstr ""
+
+#: inc/kirki-ini/k-other.php:103
+msgid "Publish and exit Customizer to see a change"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:143
+msgid "Publish and refresh to see the result."
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:65 inc/kirki-ini/k-shop.php:92
+#: inc/kirki-ini/k-shop.php:102 inc/kirki-ini/k-shop.php:176
+#: inc/kirki-ini/k-shop.php:235
+msgid "Publish and reload page."
+msgstr ""
+
+#: inc/template-tags.php:380
+msgid "Read more"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:1144
+msgid "Read More Icon"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:1170
+msgid "Read More Style"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:1122
+msgid "Read More Text"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:852
+msgid "Recommend Open Graph (OG) Ratio"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:927
+msgid "Reject Text"
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:64
+msgid "Remove Add to Cart in Product Grid?"
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:243
+msgid "Remove Cart Ajax Count ?"
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:234
+msgid "Remove Default CSS?"
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:91
+msgid "Remove Product Review?"
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:81
+msgid "Remove Product Tabs?"
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:101
+msgid "Remove Related Products?"
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:112
+msgid "Replace \"Add to cart\" button to \"Add to Line\"."
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:160
+msgid "Require Address 2 (แขวง/ตำบล)."
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:28 inc/kirki-ini/k-extensions.php:948
+msgid "Right"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:320
+msgid "Right Icons"
+msgstr ""
+
+#. Name of the template
+#: functions.php:96 inc/kirki-ini/k-body.php:636 inc/kirki-ini/k-body.php:689
+msgid "Right Sidebar"
+msgstr "ส่วนด้านขวาของหน้า"
+
+#: inc/kirki-ini/k-other.php:26
+msgid "Rounded 1"
+msgstr ""
+
+#: inc/kirki-ini/k-other.php:51
+msgid "Rounded 2"
+msgstr ""
+
+#: inc/woo/woo.php:113
+msgid "Sale"
+msgstr ""
+
+#. Name of the template
+#: inc/kirki-ini/k-extensions.php:20
+msgid "Sales Page"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:186 inc/kirki-ini/k-brand.php:418
+#: inc/kirki-ini/k-brand.php:621
+msgid "Sans Serif: Helvetica Neue"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:13
+msgid "Scripts & Styles"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:151
+msgid "Scroll Pixel for Effect"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:255 inc/kirki-ini/k-header.php:325
+msgid "Search"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:451
+msgid "Search Placeholder"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:196
+msgid "Search Shortcode"
+msgstr ""
+
+#. Author of the theme
+#: inc/blocks.php:11
+msgid "Seed Webs"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:187 inc/kirki-ini/k-brand.php:419
+#: inc/kirki-ini/k-brand.php:622
+msgid "Serif: Times New Roman"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:587
+msgid "Set Alt Heading Font?"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:651
+msgid "Set Archive?"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:17
+msgid "Set Blog Intro?"
+msgstr ""
+
+#: inc/kirki-ini/k-footer.php:39
+msgid "Set Colors?"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:706
+msgid "Set Content Card?"
+msgstr ""
+
+#: inc/kirki-ini/k-other.php:16
+msgid "Set Default Variables?"
+msgstr ""
+
+#: inc/kirki-ini/k-footer.php:226
+msgid "Set Footer Bar Colors?"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:473
+msgid "Set Header Colors?"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:384
+msgid "Set Heading Font?"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:235
+msgid "Set Left Icons?"
+msgstr ""
+
+#: inc/kirki-ini/k-footer.php:102
+msgid "Set Padding?"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:353
+msgid "Set Page?"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:305
+msgid "Set Right Icons?"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:436
+msgid "Set Search Placeholder?"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:370
+msgid "Set Shop Icons?"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:655
+msgid "Set Side Menu?"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:398
+msgid "Set Single Post?"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:22
+msgid "Shop"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:385
+msgid "Shop Icons"
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:16
+msgid "Shop Page"
+msgstr ""
+
+#: functions.php:71 woocommerce.php:37 inc/kirki-ini/k-shop.php:23
+msgid "Shop Sidebar"
+msgstr "ส่วนด้านข้างของร้านค้า"
+
+#: inc/kirki-ini/k-body.php:1044
+msgid "Shortcode"
+msgstr ""
+
+#: inc/kirki-ini/k-other.php:102
+msgid "Show Admin Bar?"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:514 inc/kirki-ini/k-body.php:1022
+msgid "Show Author?"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:382 inc/kirki-ini/k-body.php:529
+msgid "Show Comments?"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:936
+msgid "Show Date?"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:966
+msgid "Show Excerpt?"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:769
+msgid "Show Main Category?"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:838
+msgid "Show on Landing Page?"
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:55
+msgid "Show only page content, disable products list on Shop page."
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:1107
+msgid "Show Read More?"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:544
+msgid "Show Related Posts?"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:687
+msgid "Side Menu Colors"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:663
+msgid "Side Menu Width"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:630 inc/kirki-ini/k-body.php:683
+msgid "Sidebar Widgets?"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:717
+msgid "Simple"
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:74
+msgid "Single Product Page"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:599 inc/kirki-ini/k-extensions.php:659
+#: inc/kirki-ini/k-extensions.php:719 inc/kirki-ini/k-extensions.php:779
+msgid "Size: 120px Square"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:174
+msgid "Size: 80px Square"
+msgstr ""
+
+#: header.php:14
+msgid "Skip to content"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:143
+msgid "Slide In on Home"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:144
+msgid "Slide In on Home, Others are fixed"
+msgstr ""
+
+#: inc/kirki-ini/k-other.php:27
+msgid "Small border-radius"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:37
+msgid "Social"
+msgstr "โซเชียล"
+
+#: inc/kirki-ini/k-footer.php:206
+msgid "Social Icons"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:1010
+msgid "Social Network"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:168 inc/kirki-ini/k-brand.php:393
+#: inc/kirki-ini/k-brand.php:596
+msgid "Source"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:21
+msgid "Standard"
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:36
+msgid "Sticky Sidebar?"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:343
+msgid "STRONG: Font File (.woff2)"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:357
+msgid "STRONG: Font Weight"
+msgstr ""
+
+#: inc/kirki-ini/kirki-ini.php:13
+msgid "SVG Logo"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:172 inc/kirki-ini/k-brand.php:397
+#: inc/kirki-ini/k-brand.php:600
+msgid "System"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:917
+msgid "Tags"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:930
+msgid "Tags SVG"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:25 inc/kirki-ini/k-header.php:16
+msgid "Template"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:1063
+msgid "Template Shortcode"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:45 inc/kirki-ini/k-body.php:1043
+#: inc/kirki-ini/k-header.php:485 inc/kirki-ini/k-header.php:528
+#: inc/kirki-ini/k-header.php:594 inc/kirki-ini/k-header.php:691
+#: inc/kirki-ini/k-footer.php:58 inc/kirki-ini/k-footer.php:172
+#: inc/kirki-ini/k-footer.php:245
+msgid "Text"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:68 inc/kirki-ini/k-body.php:585
+msgid "Text & Link"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:29
+msgid "Text & Photo"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:105
+msgid "Text 1"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:106
+msgid "Text 2"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:65
+msgid "Text Colors"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:30
+msgid "Text Only"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:102
+msgid "Text, Background, Border"
+msgstr ""
+
+#: inc/kirki-ini/kirki-ini.php:14
+msgid "This SVG code will override image logo."
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:851
+msgid "Thumbnail Ratio"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:1021
+msgid "TikTok"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:1146
+msgid "TikTok URL"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:977
+msgid "Time"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:990
+msgid "Time SVG"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:362
+msgid "Title Align"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:215
+msgid "Top Right Shortcode"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:989
+msgid "Unlimited"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:175 inc/kirki-ini/k-brand.php:400
+#: inc/kirki-ini/k-brand.php:603
+msgid "Upload"
+msgstr ""
+
+#: inc/kirki-ini/k-footer.php:191
+msgid "Uppercase Text?"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:46
+msgid "Use [s_social] for social icons"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:651
+#, php-format
+msgid ""
+"Use font name from <a href=\"%1$s\" target=\"_blank\">fonts.google.com</a>, "
+"such as \n"
+"                <strong>Roboto</strong>, <strong>Open Sans</strong> (case-"
+"sensitive)."
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:211 inc/kirki-ini/k-brand.php:448
+#, php-format
+msgid ""
+"Use font name from <a href=\"%1$s\" target=\"_blank\">fonts.google.com</a>, "
+"such as \n"
+"            <strong>Roboto</strong>, <strong>Open Sans</strong> (case-"
+"sensitive)."
+msgstr ""
+
+#: inc/kirki-ini/k-shop.php:159
+msgid "Use Thai Style?"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:791
+msgid "User"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:807
+msgid "User SVG"
+msgstr ""
+
+#: inc/template-tags.php:99
+msgid "View your shopping cart"
+msgstr ""
+
+#: 404.php:26
+msgid "We're sorry but it looks like that page doesn't exist anymore."
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:31
+msgid "Widget: Blog Introduction"
+msgstr ""
+
+#: inc/kirki-ini/k-header.php:24
+msgid "Widget: Header"
+msgstr ""
+
+#: inc/kirki-ini/k-body.php:874
+msgid "Width"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:64
+msgid "WooCommerce Thai Postcode"
+msgstr ""
+
+#: inc/kirki-ini/k-other.php:78
+msgid "Wrap content with #page?"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:241 inc/kirki-ini/k-brand.php:1017
+msgid "X (Twitter)"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:538
+msgid "X (Twitter) Tooltip"
+msgstr ""
+
+#: inc/kirki-ini/k-extensions.php:518 inc/kirki-ini/k-brand.php:1086
+msgid "X (Twitter) URL"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:1020
+msgid "Youtube"
+msgstr ""
+
+#: inc/kirki-ini/k-brand.php:1131
+msgid "YouTube URL"
+msgstr ""

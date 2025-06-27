@@ -1,0 +1,13 @@
+# Editor / System
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Node or Composer (ถ้าใช้)
+node_modules/
+vendor/
+
+# WordPress junk (ถ้ามีติดมาด้วย)
+uploads/
+*.log
+*.tmp

@@ -1,0 +1,39 @@
+@import 'var';
+/* Hide Placeholder */
+.woocommerce-checkout {
+  ::-webkit-input-placeholder {
+    color: transparent;
+  }
+  ::-moz-placeholder {
+    color: transparent;
+  }
+  :-ms-input-placeholder {
+    color: transparent;
+  }
+  input::placeholder {
+    color: transparent;
+  }
+  textarea::-webkit-input-placeholder {
+    color: transparent;
+  }
+  textarea::-moz-placeholder {
+    color: transparent;
+  }
+  textarea:-ms-input-placeholder {
+    color: transparent;
+  }
+  textarea::placeholder {
+    color: transparent;
+  }
+}
+#billing_address_2_field {
+  .screen-reader-text {
+    clip: unset;
+    position: unset !important;
+    height: unset;
+    width: unset;
+    overflow: unset;
+    clip-path: unset;
+    margin: 0 0 3px;
+  }
+}

@@ -1,0 +1,101 @@
+// FIBOSEARCH
+.site-search {
+  .dgwt-wcas-style-pirx {
+    .dgwt-wcas-sf-wrapp {
+      background: none;
+      input[type='search'].dgwt-wcas-search-input {
+        padding: 8px 24px 8px 48px;
+        font-family: var(--s-heading);
+      }
+      button.dgwt-wcas-search-submit {
+        top: 16px;
+      }
+    }
+  }
+  @media (max-width: 1023px) {
+    position: absolute;
+    left: 52px;
+    top: calc(50% - 13px);
+    width: 24px;
+    height: 24px;
+    &::before {
+      content: '';
+      width: 2px;
+      height: 35%;
+      background-color: var(--s-head-text);
+      position: absolute;
+      left: 72%;
+      top: 72%;
+      transform: translate(-50%, -50%) rotate(-45deg);
+      transition: 0.4s;
+      border-radius: 2px;
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      width: 60%;
+      height: 60%;
+      border: 0.125em solid var(--s-head-text);
+      border-radius: 50%;
+      top: 40%;
+      left: 40%;
+      transform: translate(-50%, -50%) rotate(0deg);
+      transition: width 0.3s;
+    }
+    .dgwt-wcas-search-form {
+      display: none;
+    }
+    .dgwt-wcas-search-wrapp {
+      min-width: 24px;
+      height: 24px;
+    }
+  }
+}
+
+.dgwt-wcas-suggestions-wrapp,
+.dgwt-wcas-details-wrapp {
+  font-family: var(--s-heading);
+  color: #444;
+}
+
+.dgwt-wcas-details-main-image img {
+  max-height: 300px;
+}
+
+// PREMMERCE
+.premmerce-filter-body {
+  .filter__item {
+    margin: 0;
+    padding: 15px;
+    margin-top: -1px;
+    border: 1px solid var(--s-border-1);
+    &:first-of-type {
+      border-radius: var(--s-rounded-1) var(--s-rounded-1) 0 0;
+    }
+    &:last-of-type {
+      border-radius: 0 0 var(--s-rounded-1) var(--s-rounded-1);
+    }
+  }
+}
+label.filter__checkgroup-title {
+  color: var(--s-text-1);
+}
+span.filter__checkgroup-count {
+  top: 0;
+  font-size: 0.875em;
+  opacity: 0.6;
+}
+.filter__inner-hierarchy-button {
+  margin-top: -3px;
+}
+div.pc-range-slider__control {
+  background: var(--s-border-2);
+  border-color: var(--s-border-2);
+  .ui-slider-range {
+    background-color: var(--s-border-1);
+  }
+  .ui-slider-handle {
+    background: var(--s-text-1);
+    border-color: var(--s-text-1);
+  }
+}

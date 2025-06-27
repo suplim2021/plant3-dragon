@@ -1,0 +1,105 @@
+// KIRKI
+#customize-control-blogdescription {
+  display: none;
+}
+#customize-control-svg_logo {
+  .CodeMirror {
+    height: 3em;
+  }
+}
+li.customize-control-kirki-react-select .kirki-react-select__menu {
+  z-index: 6;
+}
+.customize-control-kirki-radio-buttonset {
+  .buttonset label.switch-label {
+    padding: 0.5em;
+  }
+}
+#input_content_readmore_icon {
+  line-height: 1;
+  label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+#wp-admin-bar-wp-logo {
+  display: none;
+}
+.kirki-sortable-item.invisible {
+  visibility: unset;
+}
+.dashicons {
+  font-family: dashicons !important;
+}
+// POST TYPE WIDTH
+$post_content_width: 780px; // 750px + padding
+$page_content_width: 1120px;
+// Sale Page
+$sp_container_width: 840px;
+$sp_content_width: 700px;
+
+body.post-type-page {
+  .editor-post-title__block.wp-block {
+    max-width: $page_content_width;
+  }
+  .wp-block {
+    max-width: $page_content_width;
+    &[data-align='wide'] {
+      max-width: $page_content_width + 120px;
+    }
+    &[data-align='full'] {
+      max-width: none;
+    }
+  }
+  &.-narrow {
+    .wp-block {
+      max-width: $post_content_width;
+    }
+  }
+  &.template-salespage {
+    .editor-post-title__block.wp-block {
+      max-width: $sp_content_width;
+    }
+    .wp-block {
+      max-width: $sp_content_width;
+      &[data-align='wide'] {
+        max-width: $sp_container_width;
+      }
+      &[data-align='full'] {
+        max-width: $sp_container_width;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+}
+body.post-type-post {
+  .wp-block {
+    max-width: $post_content_width;
+    &[data-align='wide'] {
+      max-width: $page_content_width;
+    }
+    &[data-align='full'] {
+      max-width: 100%;
+    }
+  }
+}
+
+// MENU
+.menu-item-handle .item-title {
+  max-height: 4em;
+}
+
+// ONE CLICK DEMO IMPORT
+.ocdi__gl-item-image-container::after {
+  padding-top: 100% !important;
+}
+.ocdi-install-plugins-content-content {
+  .plugin-item-wpforms-lite,
+  .plugin-item-all-in-one-seo-pack,
+  .plugin-item-google-analytics-for-wordpress,
+  .ocdi-content-notice--warning {
+    display: none !important;
+  }
+}
