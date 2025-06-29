@@ -33,6 +33,6 @@
   }
 }
 
-.nav-panel {
+.nav-panel -right {
   background-color: var(--s-color-2);
 }
