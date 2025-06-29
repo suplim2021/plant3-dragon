@@ -13,5 +13,3 @@
 .s-nav>li>a{position:relative;height:auto}
 .s-nav>li>a::after{content:"";position:absolute;left:0;bottom:0;width:0;height:2px;background-color:var(--s-color-1);transition:width .3s ease}
 .s-nav>li>a:hover::after{width:100%}
-
-.nav-panel{background-color:var(--s-color-2);}
