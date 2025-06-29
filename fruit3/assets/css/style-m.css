@@ -32,3 +32,7 @@
     box-shadow: var(--s-shadow-1);
   }
 }
+
+.nav-panel {
+  background-color: var(--s-color-2);
+}
