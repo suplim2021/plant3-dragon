@@ -1,0 +1,22 @@
+:root {
+  --s-nav-width: 66vw;
+}
+
+.site-header {
+  background: linear-gradient(135deg, #2A3288 0, #2A3288 calc(66% - 8px), #D0DF00 calc(66% - 8px), #D0DF00 calc(66% + 8px), #ffffff calc(66% + 8px), #ffffff 100%);
+  box-shadow: var(--s-shadow-1);
+}
+
+@media (min-width: 720px) {
+  :root {
+    --s-nav-width: 35vw;
+  }
+  .site-header {
+    background: linear-gradient(135deg, #2A3288 0, #2A3288 calc(35% - 8px), #D0DF00 calc(35% - 8px), #D0DF00 calc(35% + 8px), #ffffff calc(35% + 8px), #ffffff 100%);
+    box-shadow: var(--s-shadow-1);
+  }
+}
+
+.nav-panel -right {
+  background-color: var(--s-color-2);
+}
