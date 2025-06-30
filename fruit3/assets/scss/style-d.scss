@@ -16,3 +16,18 @@
     width: 100%;
   }
 }
+
+// Highlight current menu item like hover
+.s-nav > li.current-menu-item > a,
+.s-nav > li.current_page_item > a,
+.s-nav > li.current-menu-ancestor > a,
+.s-nav > li.current_page_ancestor > a {
+  color: var(--s-head-hover);
+}
+
+.s-nav > li.current-menu-item > a::after,
+.s-nav > li.current_page_item > a::after,
+.s-nav > li.current-menu-ancestor > a::after,
+.s-nav > li.current_page_ancestor > a::after {
+  width: 100%;
+}
