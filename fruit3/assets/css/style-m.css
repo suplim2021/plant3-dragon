@@ -213,23 +213,23 @@
 @media (max-width: 1023px) {
   .nav-panel.-dropdown {
     position: fixed;
-    top: 50%;
-    left: 50%;
-    right: auto;
-    bottom: auto;
-    width: 80vw;
-    max-width: 360px;
+    top: calc(var(--s-head-height) + 8px);
+    left: 8px;
+    right: 8px;
+    width: auto;
+    max-width: calc(100% - 16px);
+    margin: 0 auto;
     padding: var(--s-space);
-    transform: translate(-50%, -50%) scale(0.9);
+    transform: translateY(-8px);
     opacity: 0;
-    border-radius: var(--s-rounded-2);
+    border-radius: 0 0 var(--s-rounded-2) var(--s-rounded-2);
     box-shadow: var(--s-shadow-2);
     transition: transform 0.3s ease, opacity 0.3s ease;
   }
 
   .nav-panel.-dropdown.active {
     opacity: 1;
-    transform: translate(-50%, -50%) scale(1);
+    transform: translateY(0);
   }
 
   .nav-panel.-dropdown .nav-close {
@@ -252,3 +252,4 @@
     text-align: center;
   }
 }
+
