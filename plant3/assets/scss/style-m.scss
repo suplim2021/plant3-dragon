@@ -161,17 +161,23 @@ body.modal-active.-search .site-header {
     }
   }
 }
-.modal-active {
+.nav-close {
+  display: none;
+  position: fixed;
+  top: 10px;
+  left: 16px;
+}
+
+.nav-panel.-right {
   .nav-close {
-    position: fixed;
-    top: 10px;
-    left: 16px;
+    left: unset;
+    right: 16px;
   }
-  .nav-panel.-right {
-    .nav-close {
-      left: unset;
-      right: 16px;
-    }
+}
+
+.nav-panel.active {
+  .nav-close {
+    display: block;
   }
 }
 .nav-panel {

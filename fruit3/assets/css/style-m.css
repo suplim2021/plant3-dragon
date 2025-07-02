@@ -54,8 +54,8 @@
 .header--floating + .nav-panel.-dropdown {
   position: fixed;
   top: calc(var(--s-head-height) + 8px);
-  left: 8px;
-  right: 8px;
+  left: 50%;
+  transform: translateX(-50%);
   width: auto;
   max-width: calc(100% - 16px);
   margin: 0 auto;
@@ -68,8 +68,8 @@
 @media (min-width: 768px) {
   .header--floating + .nav-panel.-dropdown {
     top: calc(var(--s-head-height) + 16px);
-    left: 16px;
-    right: 16px;
+    left: 50%;
+    transform: translateX(-50%);
     max-width: calc(100% - 32px);
     border-radius: 0 0 12px 12px;
   }
