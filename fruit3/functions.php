@@ -32,6 +32,7 @@ function fruit_customize_register($wp_customize)
         'choices'  => [
             'none'  => __('None', 'plant'),
             'basic' => __('Transparent', 'plant'),
+            'solid' => __('Solid', 'plant'),
             'blur'  => __('Blur Dark', 'plant'),
         ],
         'priority' => 40,

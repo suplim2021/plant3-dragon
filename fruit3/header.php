@@ -26,6 +26,8 @@ echo plant_html_tag(); ?>>
             $classes = ' header--floating';
             if ($style === 'blur') {
                 $classes .= ' header--blur';
+            } elseif ($style === 'solid') {
+                $classes .= ' header--solid';
             }
         }
         set_query_var('floating_header_class', $classes);
