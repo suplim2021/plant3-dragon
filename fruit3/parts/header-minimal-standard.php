@@ -33,7 +33,7 @@
         </div>
     </div>
 </header>
-<nav class="nav-panel _mobile <?php echo plant_nav_position()?>">
+<nav class="nav-panel _mobile <?php echo plant_nav_position()?> -dropdown">
     <div class="nav-toggle nav-close"><em></em></div>
     <?php dynamic_sidebar('before_nav'); ?>
     <?php if (has_nav_menu('mobile')) {

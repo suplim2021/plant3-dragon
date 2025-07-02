@@ -37,6 +37,26 @@
   background-color: var(--s-color-2);
 }
 
+.nav-panel.-dropdown {
+  position: absolute;
+  top: var(--s-head-height);
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 var(--s-space);
+  opacity: 0;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  background-color: var(--s-nav-bg);
+}
+
+.nav-panel.-dropdown.active {
+  max-height: 80vh;
+  opacity: 1;
+  box-shadow: var(--s-shadow-1);
+}
+
 .header--floating {
   position: fixed;
   top: 8px;
@@ -77,6 +97,32 @@
   max-width: calc(100% - 32px);
   margin: 0 auto;
   transition: all 0.3s ease;
+}
+
+.header--floating.header--solid {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  right: 8px;
+  background: linear-gradient(135deg, #2A3288 0, #2A3288 calc(66% - 8px), #D0DF00 calc(66% - 8px), #D0DF00 calc(66% + 8px), #ffffff calc(66% + 8px), #ffffff 100%);
+  box-shadow: var(--s-shadow-1);
+  border-radius: 8px;
+  z-index: 999;
+  transition: all 0.3s ease;
+  width: auto;
+  max-width: calc(100% - 16px);
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .header--floating.header--solid {
+    top: 16px;
+    left: 16px;
+    right: 16px;
+    border-radius: 12px;
+    max-width: calc(100% - 32px);
+    background: linear-gradient(135deg, #2A3288 0, #2A3288 calc(35% - 8px), #D0DF00 calc(35% - 8px), #D0DF00 calc(35% + 8px), #ffffff calc(35% + 8px), #ffffff 100%);
+  }
 }
 
 @media (max-width: 767px) {

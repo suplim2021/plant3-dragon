@@ -16,7 +16,7 @@
         </div>
     </div>
 </header>
-<nav class="nav-panel -right">
+<nav class="nav-panel -right -dropdown">
     <div class="nav-toggle nav-close"><em></em></div>
     <?php dynamic_sidebar('before_nav'); ?>
     <?php if (has_nav_menu('mobile')) {
