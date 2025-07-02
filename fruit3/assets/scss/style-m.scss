@@ -38,3 +38,44 @@
   background-color: var(--s-color-2);
 }
 
+// Shared layout for the floating header
+@mixin floating-header-base {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  right: 8px;
+  z-index: 999;
+  transition: all 0.3s ease;
+
+  @media (min-width: 768px) {
+    top: 16px;
+    left: 16px;
+    right: 16px;
+  }
+}
+
+// White floating header option
+.header--floating-white {
+  @include floating-header-base();
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+
+  @media (min-width: 768px) {
+    border-radius: 12px;
+  }
+}
+
+// Dark floating header option
+.header--floating-dark {
+  @include floating-header-base();
+  background: rgba(34, 34, 34, 0.92);
+  backdrop-filter: blur(6px);
+  box-shadow: 8px 28px 20px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+
+  @media (min-width: 768px) {
+    border-radius: 12px;
+  }
+}
+

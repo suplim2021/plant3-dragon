@@ -36,3 +36,36 @@
 .nav-panel -right {
   background-color: var(--s-color-2);
 }
+
+.header--floating-white,
+.header--floating-dark {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  right: 8px;
+  z-index: 999;
+  transition: all 0.3s ease;
+}
+
+.header--floating-white {
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}
+
+.header--floating-dark {
+  background: rgba(34, 34, 34, 0.92);
+  backdrop-filter: blur(6px);
+  box-shadow: 8px 28px 20px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+  .header--floating-white,
+  .header--floating-dark {
+    top: 16px;
+    left: 16px;
+    right: 16px;
+    border-radius: 12px;
+  }
+}

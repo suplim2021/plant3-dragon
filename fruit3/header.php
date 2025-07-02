@@ -18,7 +18,11 @@ echo plant_html_tag(); ?>>
         }
         if (get_theme_mod('set_topbar', false)) {
             get_template_part('parts/top-bar');
-        } ?>
+        }
+
+        $style = get_theme_mod('floating_header_style', 'off');
+        set_query_var('floating_header_class', $style !== 'off' ? ' header--floating-' . $style : '');
+    ?>
     <?php get_template_part('parts/header', get_theme_mod('header_template', 'minimal-standard'));?>
     <div id="content" class="site-content">
         <div class="s-container">

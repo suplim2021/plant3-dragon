@@ -18,3 +18,5 @@ This theme use SCSS, please check
 */
 
 /* Custom header background layout via fruit3 child theme */
+/* Optional floating header classes: .header--floating-white or .header--floating-dark */
+/* Choose a style via Customizer → Header → Floating Header Style */
