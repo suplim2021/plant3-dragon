@@ -20,8 +20,15 @@ echo plant_html_tag(); ?>>
             get_template_part('parts/top-bar');
         }
 
-        $floating = get_theme_mod('enable_floating_header', false);
-        set_query_var('floating_header_class', $floating ? ' header--floating' : '');
+        $style = get_theme_mod('floating_header_style', 'none');
+        $classes = '';
+        if ($style !== 'none') {
+            $classes = ' header--floating';
+            if ($style === 'blur') {
+                $classes .= ' header--blur';
+            }
+        }
+        set_query_var('floating_header_class', $classes);
     ?>
     <?php get_template_part('parts/header', get_theme_mod('header_template', 'minimal-standard'));?>
     <div id="content" class="site-content">

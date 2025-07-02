@@ -17,18 +17,24 @@ add_action('wp_enqueue_scripts', 'fruit_scripts', 20);
 // DISABLE ACF IN PLANT
 // define('PLANT_DISABLE_ACF', true);
 
-// Add toggle option for floating header
+// Add option for floating header style
 function fruit_customize_register($wp_customize)
 {
-    $wp_customize->add_setting('enable_floating_header', [
-        'default'           => false,
-        'sanitize_callback' => 'wp_validate_boolean',
+    $wp_customize->add_setting('floating_header_style', [
+        'default'           => 'none',
+        'sanitize_callback' => 'sanitize_text_field',
     ]);
 
-    $wp_customize->add_control('enable_floating_header', [
-        'label'   => __('Enable Floating Header', 'plant'),
-        'section' => 'header',
-        'type'    => 'checkbox',
+    $wp_customize->add_control('floating_header_style', [
+        'label'    => __('Floating Header Style', 'plant'),
+        'section'  => 'header',
+        'type'     => 'select',
+        'choices'  => [
+            'none'  => __('None', 'plant'),
+            'basic' => __('Transparent', 'plant'),
+            'blur'  => __('Blur Dark', 'plant'),
+        ],
+        'priority' => 40,
     ]);
 }
 add_action('customize_register', 'fruit_customize_register');

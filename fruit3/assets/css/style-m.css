@@ -57,3 +57,30 @@
     border-radius: 12px;
   }
 }
+
+.header--floating.header--blur {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  right: 16px;
+  z-index: 9999;
+  background-color: rgba(34, 34, 34, 0.92);
+  backdrop-filter: blur(6px);
+  box-shadow: 8px 28px 20px rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+  padding: 0;
+  width: auto;
+  max-width: calc(100% - 32px);
+  margin: 0 auto;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 767px) {
+  .header--floating.header--blur {
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    border-radius: 8px;
+    max-width: calc(100% - 24px);
+  }
+}
