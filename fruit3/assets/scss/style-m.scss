@@ -253,3 +253,47 @@
   @include floating-header-glass();
 }
 
+// Mobile centered floating nav box
+@media (max-width: 1023px) {
+  .nav-panel.-dropdown {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    width: 80vw;
+    max-width: 360px;
+    padding: var(--s-space);
+    transform: translate(-50%, -50%) scale(0.9);
+    opacity: 0;
+    border-radius: var(--s-rounded-2);
+    box-shadow: var(--s-shadow-2);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  .nav-panel.-dropdown.active {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  .nav-panel.-dropdown .nav-close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+
+  .nav-panel.-dropdown ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+  }
+
+  .nav-panel.-dropdown li {
+    width: 100%;
+    text-align: center;
+  }
+}
+
