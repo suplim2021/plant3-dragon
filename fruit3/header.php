@@ -28,6 +28,8 @@ echo plant_html_tag(); ?>>
                 $classes .= ' header--blur';
             } elseif ($style === 'solid') {
                 $classes .= ' header--solid';
+            } elseif ($style === 'glass') {
+                $classes .= ' header--glass';
             }
         }
         set_query_var('floating_header_class', $classes);
