@@ -31,3 +31,28 @@
 .s-nav > li.current_page_ancestor > a::after {
   width: 100%;
 }
+
+// Reusable mixin for a floating header option
+@mixin floating-header {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  right: 8px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  z-index: 999;
+  transition: all 0.3s ease;
+
+  @media (min-width: 768px) {
+    top: 16px;
+    left: 16px;
+    right: 16px;
+    border-radius: 12px;
+  }
+}
+
+// Floating header class that can be toggled via Theme Options
+.header--floating {
+  @include floating-header();
+}
