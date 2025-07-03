@@ -311,7 +311,7 @@
     text-align: center;
   }
 }
-
+// Dropdown card when the header is not floating
 @media (max-width: 768px) {
   .nav-panel.-dropdown {
     position: fixed;
