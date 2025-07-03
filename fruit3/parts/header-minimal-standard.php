@@ -33,8 +33,11 @@
         </div>
     </div>
 </header>
+<?php $floating = get_query_var('floating_header_class'); ?>
 <nav class="nav-panel _mobile <?php echo plant_nav_position()?> -dropdown">
+    <?php if (!$floating): ?>
     <div class="nav-toggle nav-close"><em></em></div>
+    <?php endif; ?>
     <?php dynamic_sidebar('before_nav'); ?>
     <?php if (has_nav_menu('mobile')) {
         wp_nav_menu(['theme_location' => 'mobile',]);

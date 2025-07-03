@@ -295,12 +295,6 @@
     max-height: var(--dropdown-height);
   }
 
-  .header--floating + .nav-panel.-dropdown .nav-close {
-    position: absolute;
-    top: 0.5rem;
-    right: 0.5rem;
-  }
-
   .header--floating + .nav-panel.-dropdown ul {
     display: flex;
     flex-direction: column;
