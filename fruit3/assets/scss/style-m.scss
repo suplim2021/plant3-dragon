@@ -100,6 +100,7 @@
 }
 
 .nav-panel.-dropdown.active {
+  display: block;
   max-height: var(--dropdown-height);
   opacity: 1;
   box-shadow: var(--s-shadow-1);
