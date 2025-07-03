@@ -64,6 +64,7 @@
   margin: 0 auto;
   --s-head-text: var(--s-color-2);
   --s-head-hover: var(--s-color-1);
+  --s-nav-text: var(--s-color-2);
 }
 
 @media (min-width: 768px) {
@@ -92,6 +93,7 @@
   max-width: calc(100% - 32px);
   --s-head-text: #fff;
   --s-head-hover: #fff;
+  --s-nav-text: #fff;
   margin: 0 auto;
   transition: all 0.3s ease;
 }
