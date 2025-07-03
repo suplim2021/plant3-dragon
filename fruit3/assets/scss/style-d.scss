@@ -153,12 +153,14 @@
   @include floating-header();
   --s-head-text: var(--s-color-2);
   --s-head-hover: var(--s-color-1);
+  --s-nav-text: var(--s-color-2);
 }
 
 .header--floating.header--blur {
   @include floating-header-blur();
   --s-head-text: #fff;
   --s-head-hover: #fff;
+  --s-nav-text: #fff;
 }
 
 .header--floating.header--solid {
