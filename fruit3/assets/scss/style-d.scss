@@ -40,7 +40,8 @@
   right: 8px;
   background: rgba(255, 255, 255, 0.92);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-  border-radius: 8px;
+  --floating-radius: 8px;
+  border-radius: var(--floating-radius);
   z-index: 999;
   transition: all 0.3s ease;
   width: auto;
@@ -51,7 +52,8 @@
     top: 16px;
     left: 16px;
     right: 16px;
-    border-radius: 12px;
+    --floating-radius: 12px;
+    border-radius: var(--floating-radius);
     max-width: calc(100% - 32px);
   }
 }
@@ -168,6 +170,7 @@
 }
 
 .nav-panel.-dropdown {
+  display: none;
   position: absolute;
   top: var(--s-head-height);
   left: 0;
@@ -182,6 +185,7 @@
 }
 
 .header--floating + .nav-panel.-dropdown {
+  display: block;
   position: fixed;
   top: calc(var(--s-head-height) + 8px);
   left: 8px;
@@ -189,7 +193,7 @@
   width: auto;
   max-width: calc(100% - 16px);
   margin: 0 auto;
-  border-radius: 0 0 8px 8px;
+  border-radius: var(--floating-radius);
   background: rgba(255, 255, 255, 0.92);
   --s-nav-text: var(--s-color-2);
   --s-nav-hover: var(--s-color-1);
@@ -201,7 +205,7 @@
     left: 16px;
     right: 16px;
     max-width: calc(100% - 32px);
-    border-radius: 0 0 12px 12px;
+    border-radius: var(--floating-radius);
   }
 }
 
@@ -226,7 +230,7 @@
 }
 
 .nav-panel.-dropdown.active {
-  max-height: none;
+  max-height: var(--dropdown-height);
   opacity: 1;
   box-shadow: var(--s-shadow-1);
 }

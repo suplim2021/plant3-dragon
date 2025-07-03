@@ -1,13 +1,14 @@
 // Adjust dropdown height to match content
 document.addEventListener('DOMContentLoaded', function () {
+  const header = document.querySelector('.header--floating');
   const dropdown = document.querySelector('.nav-panel.-dropdown');
-  if (!dropdown) return;
+  if (!header || !dropdown) return;
 
   const updateHeight = () => {
     if (dropdown.classList.contains('active')) {
-      dropdown.style.maxHeight = dropdown.scrollHeight + 'px';
+      dropdown.style.setProperty('--dropdown-height', dropdown.scrollHeight + 'px');
     } else {
-      dropdown.style.maxHeight = '';
+      dropdown.style.removeProperty('--dropdown-height');
     }
   };
 
