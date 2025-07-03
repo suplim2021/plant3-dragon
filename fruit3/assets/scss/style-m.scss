@@ -311,4 +311,20 @@
     text-align: center;
   }
 }
-
+// Dropdown card when the header is not floating
+@media (max-width: 768px) {
+  .nav-panel.-dropdown {
+    position: fixed;
+    top: 80px;
+    left: 16px;
+    right: 16px;
+    width: auto;
+    max-width: calc(100% - 32px);
+    padding: var(--s-space);
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: var(--s-shadow-1);
+    height: auto !important;
+    max-height: none !important;
+  }
+}
