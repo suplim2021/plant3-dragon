@@ -52,9 +52,10 @@
   background-color: var(--s-nav-bg);
 }
 
+// Floating header dropdown with extra spacing
 .header--floating + .nav-panel.-dropdown {
   position: fixed;
-  top: calc(var(--s-head-height) + 8px);
+  top: calc(var(--s-head-height) + 16px);
   left: 50%;
   transform: translateX(-50%);
   width: auto;
@@ -68,7 +69,7 @@
 
 @media (min-width: 768px) {
   .header--floating + .nav-panel.-dropdown {
-    top: calc(var(--s-head-height) + 16px);
+    top: calc(var(--s-head-height) + 24px);
     left: 50%;
     transform: translateX(-50%);
     max-width: calc(100% - 32px);
@@ -257,14 +258,13 @@
 @media (max-width: 1023px) {
   .nav-panel.-dropdown {
     position: fixed;
-    top: calc(var(--s-head-height) + 8px);
-    left: 8px;
-    right: 8px;
-    width: auto;
-    max-width: calc(100% - 16px);
+    top: calc(var(--s-head-height) + 16px);
+    left: 50%;
+    width: 90%;
+    max-width: 360px;
+    transform: translate(-50%, -8px);
     margin: 0 auto;
     padding: var(--s-space);
-    transform: translateY(-8px);
     opacity: 0;
     border-radius: 0 0 var(--s-rounded-2) var(--s-rounded-2);
     box-shadow: var(--s-shadow-2);
@@ -273,7 +273,7 @@
 
   .nav-panel.-dropdown.active {
     opacity: 1;
-    transform: translateY(0);
+    transform: translate(-50%, 0);
   }
 
   .nav-panel.-dropdown .nav-close {
