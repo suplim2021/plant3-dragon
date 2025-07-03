@@ -13,9 +13,7 @@
 </header>
 <?php $floating = get_query_var('floating_header_class'); ?>
 <nav class="nav-panel <?php echo plant_nav_position()?> -dropdown">
-    <?php if ($floating): ?>
-    <div class="nav-close"><em></em></div>
-    <?php else: ?>
+    <?php if (!$floating): ?>
     <div class="nav-toggle nav-close"><em></em></div>
     <?php endif; ?>
     <?php dynamic_sidebar('before_nav'); ?>
